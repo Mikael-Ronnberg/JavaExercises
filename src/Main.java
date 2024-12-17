@@ -3,16 +3,11 @@ public class Main {
         String firstName = "Mikael";
         String lastName = "Rönnberg";
         int age = 37;
-        float length = 180.00f;
-        int weight = 80;
+        double length = 180.00f;
+        double weight = 80;
         boolean isStudent = true;
-
-        printName(firstName, lastName, age, length, weight, isStudent);
     }
 
-    static void printName(String fName, String lName, int age, float length, int weight, boolean student) {
-        System.out.println(fName + " " + lName + ", Ålder: " + age + ", Längd: " + length + " cm, Vikt: " + weight + " kg, är Student: " + student);
-    }
 }
 
 //1. Deklarera variabler för följande personuppgifter:
