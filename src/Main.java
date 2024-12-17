@@ -6,7 +6,6 @@ public class Main {
         float length = 180.00f;
         int weight = 80;
         boolean isStudent = true;
-
         printName(firstName, lastName, age, length, weight, isStudent);
     }
 
